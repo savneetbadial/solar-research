@@ -1,0 +1,8 @@
+[connections.snowflake]
+account = "your_org-your_account"  # Look at your Snowflake URL (e.g., xy12345.us-east-1)
+user = "your_username"
+password = "your_password"
+role = "ACCOUNTADMIN"              # Or the specific role you use
+warehouse = "COMPUTE_WH"           # Your virtual warehouse name
+database = "SOLAR_DB"              # Your database name
+schema = "PUBLIC"                  # Your schema (usually PUBLIC)
